@@ -1,0 +1,25 @@
+/*
+1. always use ===
+2. equal comparison doesn't work for non-primitive {} []
+*/
+const first = 1;
+const second = true;
+if(first === second){
+    console.log('values are equal')
+}
+else{
+    console.log('values are not equal')
+}
+
+
+// type coercion
+// type conversion
+// type casting
+const first1 = 1;
+const second1 = true;
+if(first == second){
+    console.log('values are equal')
+}
+else{
+    console.log('values are not equal')
+}
